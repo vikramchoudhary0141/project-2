@@ -1,0 +1,170 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #da0c0c;
+  background-color: rgb(208, 216, 216);
+}
+
+header {
+  background: #3f3c3c;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.education-item, .internship-item, .project {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills-container, .hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  
+}
+
+.skills-card, .hobby-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: calc(33% - 1rem);
+  text-align: center;
+}
+
+.skills-card img, .hobby-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+form {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+form button {
+  background: #e30b0b;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #555;
+}
+
+/* Footer styling */
+footer {
+  background-color: #09b927;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f4f4f4;
+}
